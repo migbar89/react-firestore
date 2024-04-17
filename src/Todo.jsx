@@ -22,8 +22,8 @@ const Todo = ({ todo, taskToComplete, deleteTodo, duplicateTodo}) => {
         </p>
       </div>
       <button onClick={() => deleteTodo(todo.id)}>{<FaRegTrashAlt />}</button>
-      <button onClick={() => duplicateTodo(todo)}>{<HiDocumentDuplicate />}</button> 
-      <button onClick={() => duplicateTodo(todo)}>{<GrChapterNext />}</button> 
+      {/* <button onClick={() => duplicateTodo(todo)}>{<HiDocumentDuplicate />}</button> 
+      <button onClick={() => duplicateTodo(todo)}>{<GrChapterNext />}</button>  */}
 
     </li>
   );
